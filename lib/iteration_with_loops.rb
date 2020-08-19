@@ -5,11 +5,10 @@ array_of_arrays = [
     ]
 
 def find_even_values(src)
-  
   row_index = 0
   evens_array = []
 
-  while row_index < array_of_arrays.length do
+  while row_index < src.length do
     element_index = 0
      
     while element_index < array_of_arrays[row_index].length do
