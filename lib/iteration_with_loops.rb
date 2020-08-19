@@ -13,7 +13,7 @@ def find_even_values(src)
     while element_index < src[row_index].length do
      
      if src[row_index][element_index].even?
-       #puts evens_array << src[row_index][element_index]
+       puts src[row_index][element_index]
       #end
       
     element_index += 1
