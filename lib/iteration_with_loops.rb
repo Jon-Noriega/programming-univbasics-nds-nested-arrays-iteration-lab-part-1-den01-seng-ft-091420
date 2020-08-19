@@ -16,8 +16,6 @@ def find_even_values(src)
      
      if array_of_arrays[row_index][element_index].even?
        puts evens_array << array_of_arrays[row_index][element_index]
-       
-      else puts "ODD!"
       end
     element_index += 1
   end
